@@ -1,14 +1,25 @@
 <div class="ui container stackable">
     <div class="ui form"></div>
-    <p class="ui large header">...and create your account</p>
-    <form name="signup">
-        <input name="login-name" type="text" placdeholer="Enter Login name">
-        <input name="password" type="password" placeholder="Passwrod">
-        <input name="email" type="email" placeholder="Email">
-        <input name="consent" type="checkbox">
-        <p>I have read and agree to the <a>Terms and Conditions of Use</a>, the <a>End User License Agreement</a>, and the <a>Privacy Policy</a>.</p>
-        <button class="ui olive button large " type="submit" value="Play">Play</button>
-    </form>
+
+    <h1>...and create your account</h1>
+    <form name="signup center aligned">
+        <div>
+            <input name="login-name" type="text" placeholder="Enter Login name">
+        </div>
+        <div>
+            <input name="password" type="password" placeholder="Passwrod">
+        </div>
+        <div id="email">
+            <input name="email" type="email" placeholder="Email">
+        </div>
+        <div>
+            <input class="checkbox" name="consent" type="checkbox">
+        </div>
+        <div class="btn play">
+            <h2>I have read and agree to the <a>Terms and Conditions of Use</a>, the <a>End User License Agreement</a>, and the <a>Privacy Policy</a>.</h2>
+            <button routerLink="login" class="ui olive button massive submit" type="submit" value="Play">Play</button>
+        </div>
+
     <p>This information is collected by Owlient to create your account.
         <a>More information about the processing of your personal data and your rights.</a></p>
 </div>
