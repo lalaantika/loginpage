@@ -22,7 +22,7 @@ input {
 }
 
 #consent-p, .btn.play {
-    margin-bottom: 1.5em;
+    margin-bottom: 2em;
 }
 
 button.submit {
@@ -37,6 +37,6 @@ h2 {
     word-spacing: .15em;
 }
 
-.more-info {
+#more-info {
     font-size: 1em;
 }
