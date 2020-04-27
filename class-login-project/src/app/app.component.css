@@ -30,3 +30,13 @@
 .img-place{
   text-align: center;
 }
+@media screen and (max-width: 767px)
+{
+    .menu
+    {
+        width:100px;
+    }
+    .item{
+        width:320px; 
+    }
+}
