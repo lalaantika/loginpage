@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./log-out.component.css']
 })
 export class LogOutComponent implements OnInit {
+  username: string;
 
-  constructor() { }
+  constructor() {
+    this.username="User";
+   }
 
   ngOnInit(): void {
   }
