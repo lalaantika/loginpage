@@ -1,0 +1,42 @@
+
+a {
+    color: #e5ff70;
+}
+
+input:not(.checkbox) {
+    margin-bottom: 1em;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+input {
+    font-size: 2em;
+    padding: .45em .3em;
+    width: 50%;
+}
+
+#email {
+    border-bottom: 3px dotted black; 
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+}
+
+#consent-p, .btn.play {
+    margin-bottom: 1.5em;
+}
+
+button.submit {
+    padding: 1em 5em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    word-spacing: .15em;
+}
+
+.more-info {
+    font-size: 1em;
+}
