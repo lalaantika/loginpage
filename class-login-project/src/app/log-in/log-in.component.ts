@@ -10,16 +10,15 @@ export class LogInComponent implements OnInit {
   password: string;
   username: string;
   constructor(){
-    this.username = this.username
-    this.password = this.password
+    
   }
   title = 'class-login-project';
-  addlogin(username: string, password: string): boolean {
+  addlogin(username: string, password: string):any {
     console.log(` ${username} and ${password}`);
    
-    username = '';
-    password = '';
-    return false;
+    this.username = this.username
+    this.password = this.password
+   
   }
   ngOnInit(): void {
   }
