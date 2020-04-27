@@ -26,3 +26,10 @@
 .img-bg-home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/images/background.jpeg');
 }
+.menu
+{
+    width:100px;
+}
+.item{
+    width:500px;
+}

@@ -9,11 +9,13 @@ export class LogInComponent implements OnInit {
 
   password: string;
   username: string;
+  title:string;
   constructor(){
-    this.username = this.username
-    this.password = this.password
+    this.username = this.username;
+    this.password = this.password;
+    this.title = 'class-login-project';
   }
-  title = 'class-login-project';
+  
   addlogin(username: string, password: string): boolean {
     console.log(` ${username} and ${password}`);
    
@@ -21,6 +23,7 @@ export class LogInComponent implements OnInit {
     password = '';
     return false;
   }
+
   ngOnInit(): void {
   }
 
