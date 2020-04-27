@@ -1,3 +1,7 @@
 form [name="signup"] {
     border-bottom: 1px dotted #fff;
 }
+
+a {
+    color: #e5ff70;
+}
