@@ -19,7 +19,7 @@ input {
 }
 
 #email {
-    border-bottom: 3px dotted black; 
+    border-bottom: 3px dotted #fff; 
     margin-bottom: 3em;
     padding-bottom: 2em;
 }
