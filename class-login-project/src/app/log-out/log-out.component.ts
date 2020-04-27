@@ -9,7 +9,7 @@ export class LogOutComponent implements OnInit {
   username: string;
 
   constructor() {
-    this.username="User";
+    this.username="User Name Goes Here";
    }
 
   ngOnInit(): void {
