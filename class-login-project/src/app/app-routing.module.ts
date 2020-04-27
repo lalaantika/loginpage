@@ -9,14 +9,14 @@ const routes: Routes = [
     path: 'login',
     component:  LogInComponent
   },
-  {
+  /*{
     path: 'logout',
     component:  LogOutComponent
   },
   {
     path: 'signup',
     component:  SignUpComponent
-  },
+  },*/
 
 
 ];
