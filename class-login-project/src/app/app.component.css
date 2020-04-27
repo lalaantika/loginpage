@@ -4,13 +4,7 @@
     text-align: center;
 }
 .main-btn{
-    border: 2px solid white;
-    margin-top:30px;
-    position: absolute;
-    top:0;
-    background-color:#67B9E8 ;
-    color: white;
-    padding:10px 30px 10px 30px;
+    font-size: 1.75rem;
 }
 
 .background {
@@ -32,4 +26,17 @@
 }
 .item{
     width:500px;
+}
+.img-place{
+  text-align: center;
+}
+@media screen and (max-width: 767px)
+{
+    .menu
+    {
+        width:100px;
+    }
+    .item{
+        width:320px; 
+    }
 }
