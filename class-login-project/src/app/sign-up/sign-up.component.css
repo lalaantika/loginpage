@@ -40,3 +40,25 @@ h2 {
 #more-info {
     font-size: 1em;
 }
+
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 1.7em;
+    }
+
+    h2 {
+        word-spacing: normal;
+        font-size: 1.3em;
+    }
+
+    input {
+        font-size: 1.5em;
+        padding: .55em .15em;
+        width: 70%;
+    }
+
+    button.submit {
+        padding: .5em 2em;
+    }
+}
