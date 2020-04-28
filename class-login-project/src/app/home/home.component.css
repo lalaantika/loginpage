@@ -1,0 +1,42 @@
+
+.main-heading{
+    color: white;
+    text-align: center;
+}
+.main-btn{
+    font-size: 1.75rem;
+}
+
+.background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.img-bg-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/assets/images/background.jpeg');
+}
+.menu
+{
+    width:100px;
+}
+.item{
+    width:500px;
+}
+.img-place{
+  text-align: center;
+}
+@media screen and (max-width: 767px)
+{
+    .menu
+    {
+        width:100px;
+    }
+    .item{
+        width:320px; 
+    }
+}
