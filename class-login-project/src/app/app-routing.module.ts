@@ -19,7 +19,7 @@ const routes: Routes = [
 
   {
     path: '',
-    redirectTo: '/home', 
+    redirectTo: '/home',
     pathMatch: 'full'
   },
 
@@ -27,7 +27,7 @@ const routes: Routes = [
     path: '**',
     component: HomeComponent
   }
-  
+
 ];
 
 @NgModule({
