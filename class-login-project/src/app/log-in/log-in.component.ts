@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-log-in',
@@ -9,26 +10,20 @@ export class LogInComponent implements OnInit {
 
   password: string;
   username: string;
-  
-  constructor(){
-   
-   
+  title:string;
+  constructor(private router: Router){
+    this.username = this.username;
+    this.password = this.password;
+    this.title = 'class-login-project';
   }
   
-  //addlogin(username: string, password: string): boolean {
-   // console.log(` ${username} and ${password}`);
-   
-    //username = '';
-    //password = '';
-    //return false;
- // }
- ngOnInit(): void {
-}
- 
   addlogin(username: HTMLInputElement, password: HTMLInputElement): boolean {
-    this.username= username.value;
-    this.password = password.value; 
-    console.log(username.value, password.value);
+    console.log(`${username.value} and ${password.value}`);
+    this.router.navigate(['/logout']);
     return false;
   }
+
+  ngOnInit(): void {
+  }
+
 }
